@@ -1,0 +1,49 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+canvas {
+	width: 100%;
+	height: 90%;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 微软雅黑;
+	font-size: 16px;
+	color: #F66;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#001441), to(#000819));
+}
+
+.btns {
+	position: fixed;
+	width: 100%;
+	height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	left: 0;
+	bottom: 0
+}
+
+.btns a {
+	padding: 0 10px;
+	color: #FFF;
+	display: inline-block;
+	height: 24px;
+	margin: 0 5px;
+	line-height: 24px;
+	background: #F69;
+	text-decoration: none;
+}
+
+.btns a:hover {
+	background: #F39
+}
+

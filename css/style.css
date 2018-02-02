@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.ball{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #F1B0BD;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.ball1 { background:#f66;}
+.ball2 { background:#F69;}
+.ball3 { background:#6CF;}
+.ball4 { background:#6CC;}
+.ball5 { background:#0CF;}
+.ball6 { background:#3C9;}
+
+body{
+	position: relative;
+	background: #000;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+
